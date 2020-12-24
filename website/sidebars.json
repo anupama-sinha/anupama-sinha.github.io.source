@@ -1,0 +1,31 @@
+{
+  "Docs": {
+    "Introduction" : ["welcome"],
+    "Best Practices": ["best_practices/spring_project"],
+    "Messaging" : [
+      {
+        "type": "subcategory",
+        "label": "Basics",
+        "ids": [
+          "async_messaging/messaging"
+        ]
+      },
+      {
+        "type": "subcategory",
+        "label": "Rabbit MQ",
+        "ids": [
+          "async_messaging/messaging_using_rabbitmq"
+        ]
+      }],
+      "Logging" : ["logging/elk"],
+      "Concepts" : ["miscellaneous/graphql"],
+      "ORM"  : ["orm/hibernate-mapping"],
+      "Database" : ["database/nosql/mongodb"],
+      "Enterprise Search" : ["enterprise_search/apache_solr"],
+      "UI" : ["front_end/react-js"],
+      "Build Tool" : ["build_tool/maven"]  ,
+      "Testing" : ["testing/junit5-mockito"],
+      "CI/CD" : ["ci_cd/docker-desktop","ci_cd/docker"],
+      "About Me" : ["about-me"]
+  }
+}
